@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Wstunes" => "wangshuogr@qq.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/Wstunes/SwiftyJWT.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/timefrancesco/SwiftyJWT.git", :tag => s.version }
   s.source_files = 'Sources/**/*.swift'
-  s.dependency 'SwiftyCrypto', '~> 0.0.1'
+  s.dependency 'SwiftyCrypto', :git => 'https://github.com/m1entus/SwiftyCrypto.git'
   s.swift_version = '4.0'
 end
